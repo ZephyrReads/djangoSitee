@@ -15,4 +15,4 @@ def login_page(request):
         else:
             message = "Login Failed"
 
-    return render(request, "accounts/login.html", {"message": message})
+    return render(request, "mysite/login.html", {"message": message})
